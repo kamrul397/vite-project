@@ -1,15 +1,4 @@
+const age = 12;
 
-
-const promise = new Promise((resolve, reject)=>{
-    setTimeout(()=>{
-        resolve("Hello I am Kamrul")
-    },2000)
-})
-
-try {
-    const res = await promise;
-    console log(res)
-}
-catch (err) {
-    console.error("Error:", err);
-}
+const ans = age>18? 'large than 18':'less than 18'
+console.log(ans)
